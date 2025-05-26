@@ -42,13 +42,3 @@ dashboard/: Visual insights from processed data
 [MIT](LICENSE)
 
 ---
-
-### ✅ Step 4: Next Actions
-
-1. **Create GitHub repo**: Name it `smartgrid-renewable-optimizer`
-2. I can help you:
-   - Write the initial `package.json` and `tsconfig.json`
-   - Build the data simulation script (`generate_fake_data.ts`)
-   - Scaffold a Kafka producer for solar/wind data
-   - Draft the optimization algorithm
-
