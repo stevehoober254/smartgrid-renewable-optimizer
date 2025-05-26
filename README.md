@@ -39,7 +39,7 @@ dashboard/: Visual insights from processed data
 
 📃 License
 
-[MIT](LICENSE.md)
+[MIT](LICENSE)
 
 ---
 
