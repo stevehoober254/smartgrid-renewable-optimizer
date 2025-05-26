@@ -30,11 +30,34 @@ Coming soon...
 
 📁 Folder Overview
 ```
-ingestion/: Kafka producers for solar/wind/grid data
+smartgrid-renewable-optimizer/
+├── README.md
+├── data/
+│   ├── simulated_sources/
+│   │   ├── solar.csv
+│   │   ├── wind.csv
+│   │   └── grid_demand.csv
+├── ingestion/
+│   └── kafka_producers.ts         # Simulate data streams
+├── processing/
+│   └── optimizer.ts               # Core optimization logic (TypeScript)
+├── storage/
+│   └── schema.sql                 # Postgres or Timescale schema
+├── orchestration/
+│   └── airflow_dags/
+│       └── daily_optimizer_dag.py
+├── infrastructure/
+│   ├── docker-compose.yaml        # For local dev (Kafka, DB, Airflow)
+│   └── terraform/                 # Cloud deployment configs
+├── dashboard/
+│   └── streamlit_app.py           # Visualization frontend
+├── notebooks/
+│   └── analysis.ipynb             # Exploratory data analysis, models
+├── scripts/
+│   └── generate_fake_data.ts
+├── .env.example
+└── package.json
 
-processing/: Business logic to optimize source usage
-
-dashboard/: Visual insights from processed data
 ```
 
 📃 License
